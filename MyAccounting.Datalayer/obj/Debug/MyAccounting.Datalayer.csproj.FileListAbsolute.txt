@@ -1,0 +1,12 @@
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\MyAccounting.Datalayer.dll.config
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\MyAccounting.Datalayer.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\MyAccounting.Datalayer.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\EntityFramework.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\EntityFramework.xml
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.csproj.AssemblyReference.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.csproj.CoreCompileInputs.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.csproj.CopyComplete
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.pdb

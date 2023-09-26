@@ -1,0 +1,6 @@
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Business.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Business.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.csproj.AssemblyReference.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.csproj.CoreCompileInputs.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.pdb

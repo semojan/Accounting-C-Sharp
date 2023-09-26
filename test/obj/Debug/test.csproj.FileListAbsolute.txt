@@ -1,0 +1,15 @@
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\test.exe.config
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\test.exe
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\test.pdb
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\EntityFramework.dll
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\EntityFramework.SqlServer.dll
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\MyAccounting.Datalayer.dll
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\MyAccounting.Datalayer.pdb
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\MyAccounting.Datalayer.dll.config
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\EntityFramework.xml
+G:\c#\projects\07-accounting\MyAccounting\test\bin\Debug\EntityFramework.SqlServer.xml
+G:\c#\projects\07-accounting\MyAccounting\test\obj\Debug\test.csproj.AssemblyReference.cache
+G:\c#\projects\07-accounting\MyAccounting\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+G:\c#\projects\07-accounting\MyAccounting\test\obj\Debug\test.csproj.CopyComplete
+G:\c#\projects\07-accounting\MyAccounting\test\obj\Debug\test.exe
+G:\c#\projects\07-accounting\MyAccounting\test\obj\Debug\test.pdb

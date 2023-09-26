@@ -1,0 +1,6 @@
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\bin\Debug\MyAccounting.ViewModels.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\bin\Debug\MyAccounting.ViewModels.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\obj\Debug\MyAccounting.ViewModels.csproj.AssemblyReference.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\obj\Debug\MyAccounting.ViewModels.csproj.CoreCompileInputs.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\obj\Debug\MyAccounting.ViewModels.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.ViewModels\obj\Debug\MyAccounting.ViewModels.pdb
