@@ -65,6 +65,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountingDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="AccountingType.cs">
+      <DependentUpon>AccountingDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Context\DBUnitOfWork.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>AccountingDataModel.tt</DependentUpon>
@@ -72,6 +75,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ICustomersRepo.cs" />
     <Compile Include="Services\CustomerRepo.cs" />
+    <Compile Include="Services\GenericRepo.cs" />
+    <Compile Include="Transation.cs">
+      <DependentUpon>AccountingDataModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="AccountingDataModel.edmx">
@@ -101,6 +108,11 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyAccounting.ViewModels\MyAccounting.ViewModels.csproj">
+      <Project>{b6eb3949-e3f9-4408-a3c1-896d5fd9b59a}</Project>
+      <Name>MyAccounting.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

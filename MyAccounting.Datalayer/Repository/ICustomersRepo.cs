@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Accounting.ViewModels.Customers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +11,12 @@ namespace MyAccounting.Datalayer.Repository
     {
         List<Customer> GetAllCustomers();
         List<Customer> SearchCustomers(string SearchTerm);
+        List<ListCustomerViewModel> getNames(string SearchTerm);
         Customer GetCustomerById(int CustomerId);
         bool UpdateCustomer(Customer customer);
         bool InsertCustomer(Customer customer);
         bool DeleteCustomer(Customer customer);
         bool DeleteCustomer(int CustomerId);
+        int GetIdByName(string name);
     }
 }

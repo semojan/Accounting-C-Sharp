@@ -12,6 +12,7 @@ namespace MyAccounting.Datalayer.Context
     {
         Accounting_DBEntities db = new Accounting_DBEntities();
         private ICustomersRepo _customerRepo;
+        private GenericRepo<Transation> _transactionRepo;
 
         public ICustomersRepo CustomerRepo
         {
@@ -22,6 +23,17 @@ namespace MyAccounting.Datalayer.Context
                     _customerRepo = new CustomerRepo(db);
                 }
                 return _customerRepo;
+            }
+        }
+        public GenericRepo<Transation> TransactionsRepo
+        {
+            get
+            {
+                if (_transactionRepo == null)
+                {
+                    _transactionRepo = new GenericRepo<Transation>(db);
+                }
+                return _transactionRepo;
             }
         }
 

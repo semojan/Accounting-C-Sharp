@@ -10,8 +10,64 @@
     <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
     <Property Name="Address" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
     <Property Name="CustomerImage" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Transations" Relationship="Accounting_DBModel.FK_Accounting_Customers1" FromRole="Customer" ToRole="Transation" />
   </EntityType>
   <EntityContainer Name="Accounting_DBEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="AccountingTypes" EntityType="Accounting_DBModel.AccountingType" />
+    <EntitySet Name="Transations" EntityType="Accounting_DBModel.Transation" />
+    <AssociationSet Name="FK_Accounting_AccountingTypes1" Association="Accounting_DBModel.FK_Accounting_AccountingTypes1">
+      <End Role="AccountingType" EntitySet="AccountingTypes" />
+      <End Role="Transation" EntitySet="Transations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Accounting_Customers1" Association="Accounting_DBModel.FK_Accounting_Customers1">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Transation" EntitySet="Transations" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="AccountingType">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="TypeTitle" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Transations" Relationship="Accounting_DBModel.FK_Accounting_AccountingTypes1" FromRole="AccountingType" ToRole="Transation" />
+  </EntityType>
+  <EntityType Name="Transation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="AccountingType" Relationship="Accounting_DBModel.FK_Accounting_AccountingTypes1" FromRole="Transation" ToRole="AccountingType" />
+    <NavigationProperty Name="Customer" Relationship="Accounting_DBModel.FK_Accounting_Customers1" FromRole="Transation" ToRole="Customer" />
+  </EntityType>
+  <Association Name="FK_Accounting_AccountingTypes1">
+    <End Type="Accounting_DBModel.AccountingType" Role="AccountingType" Multiplicity="1" />
+    <End Type="Accounting_DBModel.Transation" Role="Transation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountingType">
+        <PropertyRef Name="TypeId" />
+      </Principal>
+      <Dependent Role="Transation">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Accounting_Customers1">
+    <End Type="Accounting_DBModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="Accounting_DBModel.Transation" Role="Transation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Transation">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

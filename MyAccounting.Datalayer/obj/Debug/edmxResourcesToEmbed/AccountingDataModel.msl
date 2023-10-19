@@ -13,5 +13,25 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="AccountingTypes">
+      <EntityTypeMapping TypeName="Accounting_DBModel.AccountingType">
+        <MappingFragment StoreEntitySet="AccountingTypes">
+          <ScalarProperty Name="TypeTitle" ColumnName="TypeTitle" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transations">
+      <EntityTypeMapping TypeName="Accounting_DBModel.Transation">
+        <MappingFragment StoreEntitySet="Transations">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

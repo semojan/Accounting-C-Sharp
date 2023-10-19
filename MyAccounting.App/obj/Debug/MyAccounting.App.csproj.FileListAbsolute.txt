@@ -20,3 +20,7 @@ G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\obj\Debug\MyAccountin
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\obj\Debug\MyAccounting.App.Customers.frmAddEdit.resources
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\bin\Debug\MyAccounting.Utilities.dll
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\bin\Debug\MyAccounting.Utilities.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\bin\Debug\MyAccounting.ViewModels.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\bin\Debug\MyAccounting.ViewModels.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\obj\Debug\MyAccounting.App.Transactions.frmNewTransacrtion.resources
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.App\obj\Debug\MyAccounting.App.Transactions.frmReports.resources

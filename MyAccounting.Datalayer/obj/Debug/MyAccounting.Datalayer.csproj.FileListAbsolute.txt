@@ -10,3 +10,5 @@ G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAcc
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.csproj.CopyComplete
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.dll
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\obj\Debug\MyAccounting.Datalayer.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\MyAccounting.ViewModels.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Datalayer\bin\Debug\MyAccounting.ViewModels.pdb

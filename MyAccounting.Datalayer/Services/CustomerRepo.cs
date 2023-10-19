@@ -1,4 +1,5 @@
-﻿using MyAccounting.Datalayer.Repository;
+﻿using Accounting.ViewModels.Customers;
+using MyAccounting.Datalayer.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -86,6 +87,32 @@ namespace MyAccounting.Datalayer.Services
             {
                 return false;
             }
+        }
+
+        public List<ListCustomerViewModel> getNames(string SearchTerm)
+        {
+            if (SearchTerm == "")
+            {
+                return db.Customers.Select(c => new ListCustomerViewModel()
+                {
+                    Id = c.CustomerID,
+                    FullName = c.FullName
+                }).ToList();
+            }
+            
+            return db.Customers.
+                Where(c => c.FullName.Contains(SearchTerm)).
+                Select(c => new ListCustomerViewModel()
+                {
+                    Id = c.CustomerID,
+                    FullName = c.FullName
+                }).
+                ToList();
+        }
+
+        public int GetIdByName(string name)
+        {
+            return db.Customers.First(c => c.FullName == name).CustomerID;
         }
     }
 }

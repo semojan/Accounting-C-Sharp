@@ -1,4 +1,5 @@
 ﻿using MyAccounting.App.Customers;
+using MyAccounting.App.Transactions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,12 @@ namespace MyAccounting.App
         {
             frmCustomers frmCustomers = new frmCustomers();
             frmCustomers.ShowDialog();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            frmNewTransacrtion frmAddTrans = new frmNewTransacrtion();
+            frmAddTrans.ShowDialog();
         }
     }
 }
