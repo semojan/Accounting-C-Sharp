@@ -30,5 +30,27 @@ namespace MyAccounting.App
             frmNewTransacrtion frmAddTrans = new frmNewTransacrtion();
             frmAddTrans.ShowDialog();
         }
+
+        private void btnExpenseReport_Click(object sender, EventArgs e)
+        {
+            frmReports frmReports = new frmReports();
+            frmReports.TypeId = 2;
+            frmReports.Text = "Expense Report";
+            frmReports.ShowDialog();
+        }
+
+        private void btnIncomeReport_Click(object sender, EventArgs e)
+        {
+            frmReports frmReports = new frmReports();
+            frmReports.TypeId = 1;
+            frmReports.Text = "Income Report";
+            frmReports.ShowDialog();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            frmNewTransacrtion frmAddTrans = new frmNewTransacrtion();
+            frmAddTrans.ShowDialog();
+        }
     }
 }
