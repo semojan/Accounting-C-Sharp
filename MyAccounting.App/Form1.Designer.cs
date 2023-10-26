@@ -77,8 +77,8 @@
             this.btnExpenseReport.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnExpenseReport.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExpenseReport.Name = "btnExpenseReport";
-            this.btnExpenseReport.Size = new System.Drawing.Size(85, 59);
-            this.btnExpenseReport.Text = "Exense Report";
+            this.btnExpenseReport.Size = new System.Drawing.Size(92, 59);
+            this.btnExpenseReport.Text = "Expense Report";
             this.btnExpenseReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnExpenseReport.Click += new System.EventHandler(this.btnExpenseReport_Click);
             // 
