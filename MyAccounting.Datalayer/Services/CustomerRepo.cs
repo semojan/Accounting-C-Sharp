@@ -89,7 +89,7 @@ namespace MyAccounting.Datalayer.Services
             }
         }
 
-        public List<ListCustomerViewModel> getNames(string SearchTerm)
+        public List<ListCustomerViewModel> getNames(string SearchTerm = "")
         {
             if (SearchTerm == "")
             {
