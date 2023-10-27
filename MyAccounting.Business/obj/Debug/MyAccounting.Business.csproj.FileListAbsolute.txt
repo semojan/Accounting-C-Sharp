@@ -1,6 +1,14 @@
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Business.dll
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Business.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Datalayer.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.ViewModels.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\EntityFramework.dll
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Datalayer.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.Datalayer.dll.config
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\MyAccounting.ViewModels.pdb
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\bin\Debug\EntityFramework.xml
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.csproj.AssemblyReference.cache
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.csproj.CoreCompileInputs.cache
+G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.csproj.CopyComplete
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.dll
 G:\c#\projects\07-accounting\MyAccounting\MyAccounting.Business\obj\Debug\MyAccounting.Business.pdb

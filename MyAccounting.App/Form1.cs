@@ -1,13 +1,8 @@
 ﻿using MyAccounting.App.Customers;
 using MyAccounting.App.Transactions;
+using MyAccounting.ViewModels.Transactions;
+using MyAccounting.Business;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MyAccounting.App
@@ -62,11 +57,20 @@ namespace MyAccounting.App
                 this.Show();
                 lblDate.Text = DateTime.Now.ToString("yyyy/MM/dd");
                 lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
+                Report();
             }
             else
             {
                 Application.Exit();
             }
+        }
+
+        void Report()
+        {
+            ReportViewModel report = Account.ReportMain();
+            lblIncome.Text = report.Income.ToString("#,0");
+            lblExpense.Text = report.Expense.ToString("#,0");
+            lblRemain.Text = report.Balance.ToString("#,0");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -79,6 +83,11 @@ namespace MyAccounting.App
             frmLogin frmLogin = new frmLogin();
             frmLogin.isEdit = true;
             frmLogin.ShowDialog();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
