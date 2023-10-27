@@ -24,6 +24,7 @@
       <End Role="Customer" EntitySet="Customers" />
       <End Role="Transation" EntitySet="Transations" />
     </AssociationSet>
+    <EntitySet Name="LoginInfoes" EntityType="Accounting_DBModel.LoginInfo" />
   </EntityContainer>
   <EntityType Name="AccountingType">
     <Key>
@@ -70,4 +71,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="LoginInfo">
+    <Key>
+      <PropertyRef Name="AccId" />
+    </Key>
+    <Property Name="AccId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

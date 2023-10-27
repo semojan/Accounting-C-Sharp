@@ -28,5 +28,6 @@ namespace MyAccounting.Datalayer
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<AccountingType> AccountingTypes { get; set; }
         public virtual DbSet<Transation> Transations { get; set; }
+        public virtual DbSet<LoginInfo> LoginInfoes { get; set; }
     }
 }
